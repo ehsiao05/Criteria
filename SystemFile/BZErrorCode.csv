@@ -1,0 +1,84 @@
+﻿BZDefined,BZCode,BZMessage,FDMappingCode
+EC_NOERROR,-1,No error,1
+EC_SW_DETECT_START_FAILED,0,Start  failed,7
+EC_SW_INIT_UNAUTHORIZED,1,unauthorized,7
+EC_SW_DETECT_RESET_FAILED,2,Reset failed,7
+EC_SW_DETECT_STOP_FAILED,16,Stop failed,7
+EC_SW_DETECT_RECOGNITION_FAILED,20,Model recognition failed,4
+EC_SW_RUN_FRONT_FAILED,21,Operation failed,2
+EC_SW_DETECTION_NOT_FINISHED,50,Not detected,7
+EC_SW_LOAD_MODEL_FAILED,51,Model loading failed,4
+EC_SW_DETECT_RECOGNITION_START_PARAM_ERROR,200,The model identification start parameter is wrong,4
+EC_SW_DETECT_RECOGNITION_START_PARAM_UNSUPPORT,201,The model identification start parameter is not in the template,4
+EC_SW_DETECT_RECOGNITION_RESULT_ERROR,204,The model recognition result is wrong,4
+EC_SW_DETECT_RECOGNITION_CHECKSIZE,205,Model identification size verification error,4
+EC_SW_DETECT_SCANMODEL_PARAM_ERROR,210,Start detecting parameter errors,2
+EC_SW_DETECT_SCANMODEL_PARAM_APPLY,211,The setting parameters are incorrect,2
+EC_HW_AXIS_CLEARALARM_FAILED_C1_1,1000,Axis 1 failed to clear the alarm,7
+EC_HW_AXIS_CLEARALARM_FAILED_C1_2,1001,Axis 2 clear alarm failed,7
+EC_HW_AXIS_CLEARALARM_FAILED_C1_3,1002,Axis 3 failed to clear the alarm,7
+EC_HW_AXIS_CLEARALARM_FAILED_C1_4,1003,Axis 4 clear alarm failed,7
+EC_HW_AXIS_ENABLE_FAILED_C1_1,1100,Axis 1 enable failed,7
+EC_HW_AXIS_ENABLE_FAILED_C1_2,1101,Axis 2 enable failed,7
+EC_HW_AXIS_ENABLE_FAILED_C1_3,1102,Axis 3 enable failed,7
+EC_HW_AXIS_ENABLE_FAILED_C1_4,1103,Axis 4 enable failed,7
+EC_HW_COORDINATE_ENABLE_FAILED_1,1111,Coordinate system 1 enable failed,7
+EC_HW_AXIS_HOME_FAILED_C1_1,1200,Axis 1 failed to return to zero,7
+EC_HW_AXIS_HOME_FAILED_C1_2,1201,Axis 2 failed to return to zero,7
+EC_HW_AXIS_HOME_FAILED_C1_3,1202,Axis 3 failed to return to zero,7
+EC_HW_AXIS_HOME_FAILED_C1_4,1203,Axis 4 failed to return to zero,7
+EC_HW_IO_UP_LIFTING_REACH_FAILED,1401,Positioning cylinder extension failed,3
+EC_HW_IO_UP_LIFTING_RETRACT_FAILED,1402,Positioning cylinder contraction failed,3
+EC_HW_IO_LOCK_SAFTY_DOOR_FAILED,1405,The safety door failed to close,3
+EC_HW_IO_GREEN_LIGHT_ON_FAILED,1406,Green light on failed,3
+EC_HW_IO_GREEN_LIGHT_OFF_FAILED,1407,Green light off failed,3
+EC_HW_IO_RED_LIGHT_ON_FAILED,1408,Red light on failed,3
+EC_HW_IO_RED_LIGHT_OFF_FAILED,1409,Red light off failed,3
+EC_HW_IO_YELLOW_LIGHT_ON_FAILED,1410,Yellow light on failed,3
+EC_HW_IO_YELLOW_LIGHT_OFF_FAILED,1411,Yellow light off failed,3
+EC_HW_IO_FRONT_POSITIONING_CYLINDER_FAILED,1412,Front positioning axis failed,3
+EC_HW_IO_VACUUM_SUCTION_OPEN_FAILED,1413,The mover failed to open the vacuum,3
+EC_HW_IO_VACUUM_SUCTION_CLOSE_FAILED,1414,Movable off vacuum suction failed,3
+EC_HW_IO_GRATING_IS_OCCLUDED,1415,The front grating is blocked,3
+EC_HW_IO_FLIP_FAILED,1416,The flip mechanism failed,3
+EC_HW_IO_LONG_AXIS_DANGEROUS,1417,The position of the long axis is dangerous,3
+EC_HW_IO_FLIP_RETRACT_FAILED,1418,Flipping mechanism failed,3
+EC_HW_IO_FLIP_REACH_FAILED,1419,Failed to extend the flip mechanism,3
+EC_HW_IO_CLAMPING_CYLINDER_OPEN_FAILED,1420,Failed to clamp the cylinder,3
+EC_HW_IO_CLAMPING_CYLINDER_CLOSE_FAILED,1421,Clamping cylinder clamp failed,3
+EC_HW_IO_FLIP_UP_FAILED,1422,The flip mechanism failed to rise,3
+EC_HW_IO_FLIP_DOWN_FAILED,1423,Clamping cylinder clamp failed,3
+EC_HW_IO_MOVER_NO_PRODUCT,1424,The mover has no products,3
+EC_HW_IO_MOVER_ON_PRODUCT,1425,The mover has products,3
+EC_HW_IO_FRAME_CORNER_LIGHT_SET_FAILED,1440,R angle light source setting failed,6
+EC_HW_IO_FRAME_CORNER_EXPOSURE_SET_FAILED,1441,R angle exposure setting failed,6
+EC_HW_IO_FRAME_CORNER_GAIN_SET_FAILED,1442,R angle gain setting failed,6
+EC_HW_IO_LINE_FRAME_LIGHT1_SET_FAILED,1443,The light source setting of the middle frame 1 failed,6
+EC_HW_IO_LINE_FRAME_LIGHT2_SET_FAILED,1444,The light source setting of the middle frame 2 failed,6
+EC_HW_IO_LINE_FRAME_LIGHT3_SET_FAILED,1445,The light source setting of the middle frame 3 failed,6
+EC_HW_IO_LINE_FRAME_LIGHT4_SET_FAILED,1446,The light source setting of the middle frame 4 failed,6
+EC_HW_IO_LINE_FRAME_EXPOSURE_SET_FAILED,1447,Middle frame exposure setting failed,6
+EC_HW_IO_LINE_FRAME_GAIN_SET_FAILED,1448,The mid-frame gain setting failed,6
+EC_HW_IO_FRONT_LIGHT_SET_FAILED,1449,The front camera light setting failed,6
+EC_HW_IO_BACK_LIGHT_SET_FAILED,1450,The rear camera light setting failed,6
+EC_HW_STEP_SELF_INSPECTION_FAILED,1502,Self-test failed,7
+EC_HW_STEP_INIT_MOTIONCARD_FAILED,1503,Failed to initialize the motion card,7
+EC_HW_STEP_ACTION_IS_RUNNING,1504,running,2
+EC_HW_STEP_CURRENT_ACTING_NOT_ALLOWED,1506,The current operation is not allowed,2
+EC_HW_STEP_POSITIVE_INSPECTION_FAILED,1510,Positive detection failed,2
+EC_HW_STEP_BACK_INSPECTION_FAILED,1512,Back detection failed,2
+EC_HW_STEP_RCORNER_INSPECTION_FAILED,1514,R angle detection failed,2
+EC_HW_STEP_MIDDLE1_INSPECTION_FAILED,1515,Midframe detection 1 failed,2
+EC_HW_STEP_MIDDLE2_INSPECTION_FAILED,1516,Midframe detection 2 failed,2
+EC_HW_STEP_MIDDLE3_INSPECTION_FAILED,1517,Midframe detection 3 failed,2
+EC_HW_STEP_MIDDLE4_INSPECTION_FAILED,1518,Midframe detection 4 failed,2
+EC_HW_STEP_PHONE_THICKNESS_FAILED,1520,Mobile phone thickness V axis movement failed,2
+EC_HW_STEP_FLIP_MECHANISM_FLIP_FAILED,1521,The flip mechanism failed to flip,2
+EC_HW_STEP_WAIT_COLOR_TIME_OUT,1522,Wait for the color to time out,4
+EC_HW_STEP_CHECK_TYPE_TIME_OUT,1523,Waiting for detection size timeout,4
+EC_HW_STEP_WAIT_MODEL_TIME_OUT,1524,Waiting for model name timeout,4
+EC_HW_STEP_LOCATION_FAIL,1525,Location Fail,5
+EC_HW_STEP_GRAY_VALUE_DIFFERENCE,1526,Gray values are different,8
+EC_HW_STEP_JEPG_PATH_NOT_EXIST,1527,JPEG Path Not Exist,10
+EC_HW_STEP_BMP_PATH_NOT_EXIST,1528,BMP Path Not Exist,10
+EC_SW_STEP_CANNOT_FIND_MODEL_FOLDER,1529,Cannot find model recognition template folder,4

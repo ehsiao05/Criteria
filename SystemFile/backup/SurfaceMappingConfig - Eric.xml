@@ -1,0 +1,349 @@
+<SurfaceMappingConfig>
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Gold.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Red.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Silver.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - SpaceGray.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Black.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Blue.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Coral.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Red.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - White.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Yellow.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - Gold.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - Silver.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>	
+	
+	<Criteria CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - SpaceGray.xml" Enable="true">
+		<Mapping Enable="true" Page="CG1" Surface="AA" NewSurface="DV"/>
+		<Mapping Enable="true" Page="CG1" Surface="A" NewSurface="DNV"/>
+		<Mapping Enable="false" Page="CG1" Surface="B" NewSurface="DNV"/>
+		<Mapping Enable="true" Page="BG1" Surface="AA" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="A" NewSurface="BH"/>
+		<Mapping Enable="true" Page="BG1" Surface="B" NewSurface="BH"/>
+		<Mapping Enable="true" Page="UT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="UL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="MR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="ML" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DT" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DB" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DR" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="DL" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R0" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R1" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R2" Surface="B" NewSurface="FRM"/>
+		<Mapping Enable="true" Page="R3" Surface="B" NewSurface="FRM"/>
+	</Criteria>
+</SurfaceMappingConfig>

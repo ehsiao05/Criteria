@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grading_criteria version="1" subversion="3" describe="Revised to reflect Nicosuma Requirements">
+	<grade name="A" max_defect_total="-1" report_vital_defect="false">
+		<surface_grade>
+			<item surface="DV" max_defect_total="1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<ZoneGroup>
+				</ZoneGroup>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="10" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="15" background="-1"/>
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="10" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="DNV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="5" width="-1" areaPixel="-1" areaMM="-1" contrast="5" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="HomeKeyCrack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="8" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="FRM" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="5" width="-1" areaPixel="-1" areaMM="-1" contrast="15" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="8" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="8" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="BH" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="5" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="1" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Etching" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+		</surface_grade>
+	</grade>
+	<grade name="B" max_defect_total="-1" report_vital_defect="false">
+		<surface_grade>
+			<item surface="DV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="15" filterable="false" length="30" width="20" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="DNV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="3" filterable="false" length="20" width="-1" areaPixel="-1" areaMM="-1" contrast="5" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="3" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="HomeKeyCrack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="FRM" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="24" filterable="false" length="20" width="-1" areaPixel="-1" areaMM="-1" contrast="5" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="24" filterable="false" length="2" width="-1" areaPixel="1500" areaMM="-1" contrast="25" background="-1"/><!--areaPixel= -1-->
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="24" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="5" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="BH" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="3" filterable="false" length="20" width="-1" areaPixel="-1" areaMM="-1" contrast="5" background="-1"/>
+					<defect type="Nick" measurable="true" order="1" group="max_defect_none" count="24" filterable="false" length="2" width="-1" areaPixel="-1" areaMM="-1" contrast="30" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Etching" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="5" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+		</surface_grade>
+	</grade>
+	<grade name="C" max_defect_total="-1" report_vital_defect="false">
+		<surface_grade>
+			<item surface="DV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="true" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="35" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="DNV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="true" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="HomeKeyCrack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="FRM" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Bend" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="BH" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="0" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Bend" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Etching" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+		</surface_grade>
+	</grade>
+	<grade name="J" max_defect_total="-1" report_vital_defect="true">  
+		<surface_grade>
+			<item surface="DV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="10" width="2" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="10" width="2" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="DNV" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="10" width="2" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="10" width="2" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="HomeKeyCrack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DifferentScreen" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="FRM" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Bend" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+			<item surface="BH" max_defect_total="-1">
+				<SurfaceGroupName>
+				</SurfaceGroupName>
+				<logical_and>
+					<defect type="Scratch" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Nick" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dent" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Crack" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Chip" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="GroupPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Discoloration" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Bend" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="DiscolorationPindot" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Etching" measurable="false" order="1" group="max_defect_none" count="-1" filterable="false" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+					<defect type="Dirt" measurable="true" order="1" group="max_defect_none" count="-1" filterable="true" length="-1" width="-1" areaPixel="-1" areaMM="-1" contrast="-1" background="-1"/>
+				</logical_and>
+				<logical_or/>
+			</item>
+		</surface_grade>
+	</grade>
+</grading_criteria>

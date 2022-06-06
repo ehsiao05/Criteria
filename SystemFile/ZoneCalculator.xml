@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZoneCalculator>
+	<grade name="A" Enable="true">
+		<Root RootFailedNumber="0">
+			<Zones Name="CG1" Surface="AA" ZonesFailedNumber="0">
+				<SmallDefect>
+					<defect type="Scratch" Shape="length" Value="10.0"/>
+					<defect type="Dirt" Shape="length,width" Value="10.0,-1"/>
+				</SmallDefect>
+				<Zone RegionX1Y1="0,0" RegionX2Y2="100,100" TotalDefectNumber="0" SmallDefectNumber="2" BigDefectNumber="0"/>
+			</Zones>
+		</Root>
+	</grade>
+	<grade name="B" Enable="true">
+		<Root RootFailedNumber="0">
+			<Zones Name="CG1" Surface="AA" ZonesFailedNumber="0">
+				<SmallDefect>
+					<defect type="Scratch" Shape="length,width" Value="10.0,-1"/>
+					<defect type="Dirt" Shape="length,width" Value="10.0,-1"/>
+				</SmallDefect>
+				<Zone RegionX1Y1="50,0" RegionX2Y2="100,50" TotalDefectNumber="-1" SmallDefectNumber="-1" BigDefectNumber="-1"/>
+				<Zone RegionX1Y1="0,0" RegionX2Y2="50,50" TotalDefectNumber="-1" SmallDefectNumber="1" BigDefectNumber="0"/>
+				<Zone RegionX1Y1="0,50" RegionX2Y2="100,100" TotalDefectNumber="-1" SmallDefectNumber="1" BigDefectNumber="0"/>
+				<!--Zone RegionX1Y1="50,50" RegionX2Y2="100,100" TotalDefectNumber="-1" SmallDefectNumber="1" BigDefectNumber="0"/-->
+			</Zones>
+		</Root>
+		<Root/>
+	</grade>
+	<grade name="C" Enable="true">
+	</grade>
+	<grade name="J" Enable="true">
+	</grade>
+</ZoneCalculator>

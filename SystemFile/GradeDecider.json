@@ -1,0 +1,35 @@
+{
+  "Decider": [
+    {
+      "Enable": true,
+      "Mode": "GradeWithException",
+      "Conditions": {
+        "Operation": "or",
+        "D2C": "D",
+        "Wholesale": "D,E"
+      },
+      "Actions": {
+        "D2C": {
+          "UsingGradeWithoutException": ""
+        },
+        "Wholesale": {
+          "UsingGradeWithoutException": ""
+        }
+      }
+    },
+    {
+      "Enable": false,
+      "Mode": "GradeWithException",
+      "Conditions": {
+        "Operation": "and",
+        "D2C": "A+,A,B,C",
+        "Wholesale": "A,B,C"
+      },
+      "Actions": {
+        "Polish-Eligible": {
+          "ForcedGrade": "Y"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿FDCode,FDMessage
+1,Success
+2,Operation failed
+3,Motion error
+4,Model recognition failed
+5,Location failed
+6,Lightning error
+7,Initialization failed
+8,Gray scale failed
+9,Grading failed
+10,Image cannot be saved
+11,IMEI cannot be recognized
+12,Wrong placement
+13,Wrong model
+14,Cannot find the color
+15,Suction Failed

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<CriteriaMappingConfig>
+	<Criteria ClassID="integer(mapping to the CriteriaHroupConfig.xml)" ClassName="string(mapping to the CriteriaHroupConfig.xml)">
+		<DeviceAssignmentList DefaultCriteriaName="Criteria File Name(Ex.Grading-Criteria-X.xml)">
+			<DeviceAssignment Enable="true" Company="Maker(Ex. Apple/Samsung)" Model="ModelName(Ex. IPhone8)" Color="(Ex. Gray)" CriteriaName="Criteria File Name(Ex.Grading-Criteria-78.xml)" />
+		</DeviceAssignmentList>
+	</Criteria>
+</CriteriaMappingConfig>
+Note > 
+	1. if no one matches the Maker, Model and Color of DeviceAssignment, it will use the DefaultCriteriaName to Grade.
+	2. Maker, Model and Color can be a star sign, it means any
+-->
+<CriteriaMappingConfig>
+	<Criteria ClassID="1" ClassName="Nicosuma">
+		<DeviceAssignmentList DefaultCriteriaName="Grading-Criteria-Nicosuma.xml" DefaultDirtToScratch="true">
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Gold" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma - iPhone8 - Gold.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Red" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma - iPhone8 - Red.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Silver" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma - iPhone8 - Silver.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="SpaceGray" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma - iPhone8 - SpaceGray.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="Black" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - Black.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="Blue" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - Blue.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="Coral" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - Coral.xml"/> <!--blue and coral are same-->
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="Red" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - Red.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="White" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - White.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXR" Color="Yellow" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXR - Yellow.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXS" Color="Gold" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXS - Gold.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXS" Color="Silver" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXS - Silver.xml"/>
+					<DeviceAssignment Enable="true" Company="Apple" Model="iPhoneXS" Color="SpaceGray" DirtToScratch="true" CriteriaName="Grading-Criteria-Nicosuma - iPhoneXS - SpaceGray.xml"/>
+
+		</DeviceAssignmentList>
+	</Criteria>
+</CriteriaMappingConfig>

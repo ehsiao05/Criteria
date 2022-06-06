@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+<CustomerAPIConfig DelayForException="Second" DelayForIdle="Second">
+	<API Name="String" Enable="boolean" Index="integer" Destination="URL Path" Show="boolean" />
+</CustomerAPIConfig>
+-->
+<CustomerAPIConfig DelayForException="120" DelayForIdle="30" DoesSendAPIError="false" PeriodSendAPIError="300" CustomerName="Itochu" />

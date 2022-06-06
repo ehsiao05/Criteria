@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<CriteriaMappingConfig>
+	<Criteria ClassID="integer(mapping to the CriteriaHroupConfig.xml)" ClassName="string(mapping to the CriteriaHroupConfig.xml)">
+		<DeviceAssignmentList DefaultCriteriaName="Criteria File Name(Ex.Grading-Criteria-X.xml)">
+			<DeviceAssignment Enable="true" Company="Maker(Ex. Apple/Samsung)" Model="ModelName(Ex. IPhone8)" Color="(Ex. Gray)" CriteriaName="Criteria File Name(Ex.Grading-Criteria-78.xml)" />
+		</DeviceAssignmentList>
+	</Criteria>
+</CriteriaMappingConfig>
+Note > 
+	1. if no one matches the Maker, Model and Color of DeviceAssignment, it will use the DefaultCriteriaName to Grade.
+	2. Maker, Model and Color can be a star sign, it means any
+-->
+<CriteriaMappingConfig>
+	<Criteria ClassID="1" ClassName="Nicosuma">
+		<DeviceAssignmentList DefaultCriteriaName="Grading-Criteria-Nicosuma-FDtuning.xml" DefaultDirtToScratch="true">
+		</DeviceAssignmentList>
+	</Criteria>	
+</CriteriaMappingConfig>

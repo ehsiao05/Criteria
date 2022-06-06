@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<DefectsDefinitionConfigs>
+	<DefectsDefinitionConfig CriteriaFileName="Criteria file name (Ex. Regression-Grading-Criteria-Wholesale.xml)">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="boolean" Order="integer" BZErrorCode="BZ error code" FDErrorCode="FD error code" GradingString="Report to CMC string" ShowErrorString="Show to the UI string" APIString="Report to API string" />
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="integer" Type="Defect type(Ex. Scratch)" Overlap="boolean" Vital="boolean" />
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="integer" DefectType="Defect type(Ex.Dirt)" Order="integer" Enable="boolean" GradingString="Report to CMC string" ShowErrorString="Show to the UI string" APIString="Report to API string" IsIgnored="boolean" ErrorCode="report to CMC error code" />
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+</DefectsDefinitionConfigs>
+Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
+<DefectsDefinitionConfigs>
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Gold.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Red.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - Silver.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhone8 - SpaceGray.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Black.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Blue.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Coral.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Red.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - White.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXR - Yellow.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - Gold.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - Silver.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma - iPhoneXS - SpaceGray.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>
+	
+</DefectsDefinitionConfigs>

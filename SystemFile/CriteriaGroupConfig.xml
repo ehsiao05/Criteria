@@ -1,0 +1,10 @@
+<CriteriaGroupConfig>
+	<CriteriaGroupItem ID="1" Name="Nicosuma" ShowMode="Overall" Enable="true" DefaultShowRule="Show" BackGroundGrading="false" EnableSkipOverlap="true" EnableRegionStatics="false" EnableZoomStatics="true" GradeListString="A+,A,B,C,D+,D" DefaultSurfaceListString="AA,A,B">
+		<ShowList>
+			<!--Show Enable="true" Company="*" Model="*" Color="*"/-->
+		</ShowList>
+		<NoShowList>
+			<!--NoShow Enable="true" Company="" Model="" Color=""/-->
+		</NoShowList>
+	</CriteriaGroupItem>	
+</CriteriaGroupConfig>
