@@ -44,9 +44,9 @@ Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
 			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
 		</ExceptionDefectConfigs>
 	</DefectsDefinitionConfig>	
 	<DefectsDefinitionConfig CriteriaFileName="Default-Nicosuma">
@@ -78,9 +78,9 @@ Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
 			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
 		</ExceptionDefectConfigs>
 	</DefectsDefinitionConfig>	
 	<DefectsDefinitionConfig CriteriaFileName="Default-FDtuning">
@@ -112,9 +112,9 @@ Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
 			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
 		</ExceptionDefectConfigs>
 	</DefectsDefinitionConfig>
 
@@ -147,9 +147,9 @@ Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
 			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
 		</ExceptionDefectConfigs>
 	</DefectsDefinitionConfig>	
 	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma-FDtuning.xml">
@@ -181,9 +181,77 @@ Note > ErrorCode of ExceptionDefectConfig is 0, it means success-->
 			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
 			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="true" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
-			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="true" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma-FDtuning - NDV white.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+		</ExceptionDefectConfigs>
+	</DefectsDefinitionConfig>	
+	<DefectsDefinitionConfig CriteriaFileName="Grading-Criteria-Nicosuma-FDtuning - NDV black.xml">
+		<AlgorithmErrorConfigs>
+			<AlgorithmErrorConfig Enable="true" Order="1" BZErrorCode="1525" FDErrorCode="5" GradingString="LocationFail" ShowErrorString="LocationFail" APIString="X"/>
+			<AlgorithmErrorConfig Enable="true" Order="2" BZErrorCode="1526" FDErrorCode="8" GradingString="AbnormalGrayscale" ShowErrorString="AbnormalGrayscale" APIString="X"/>
+		</AlgorithmErrorConfigs>
+		<DefectConfigs>
+			<DefectConfig ID="1" Type="Scratch" Overlap="true" Vital="false"/>
+			<DefectConfig ID="2" Type="Nick" Overlap="true" Vital="false"/>
+			<DefectConfig ID="3" Type="Dent" Overlap="false" Vital="false"/>
+			<DefectConfig ID="4" Type="Crack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="5" Type="Chip" Overlap="false" Vital="true"/>
+			<DefectConfig ID="6" Type="HomeKeyCrack" Overlap="false" Vital="true"/>
+			<DefectConfig ID="7" Type="GroupPindot" Overlap="true" Vital="false"/>
+			<DefectConfig ID="8" Type="Discoloration" Overlap="false" Vital="false"/>
+			<DefectConfig ID="9" Type="DiscolorationPindot" Overlap="false" Vital="false"/>
+			<DefectConfig ID="10" Type="Dirt" Overlap="false" Vital="false"/>
+			<DefectConfig ID="11" Type="Etching" Overlap="false" Vital="false"/>
+			<DefectConfig ID="12" Type="DifferentScreen" Overlap="false" Vital="true"/>
+			<DefectConfig ID="13" Type="Bend" Overlap="false" Vital="true"/>
+			<DefectConfig ID="14" Type="MissingScrews" Overlap="false" Vital="true"/>
+			<DefectConfig ID="15" Type="DamagedSIM" Overlap="false" Vital="true"/>
+			<DefectConfig ID="16" Type="MissPart" Overlap="false" Vital="true"/>
+			<DefectConfig ID="17" Type="DifferentBackCase" Overlap="false" Vital="true"/>
+		</DefectConfigs>
+		<ExceptionDefectConfigs>
+			<ExceptionDefectConfig DefectID="10" DefectType="Dirt" Order="1" Enable="false" GradingString="Dirt" ShowErrorString="Dirt" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="11" DefectType="Etching" Order="2" Enable="false" GradingString="E" ShowErrorString="E" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="12" DefectType="DifferentScreen" Order="3" Enable="false" GradingString="ReplacedLCD" ShowErrorString="ReplacedLCD" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="13" DefectType="Bend" Order="4" Enable="false" GradingString="Bend" ShowErrorString="Bend" APIString="D" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="14" DefectType="MissingScrews" Order="5" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="15" DefectType="DamagedSIM" Order="6" Enable="false" GradingString="ReplaceSIM" ShowErrorString="ReplaceSIM" APIString="X" IsIgnored="false" ErrorCode="0"/>
+			<ExceptionDefectConfig DefectID="16" DefectType="MissPart" Order="7" Enable="false" GradingString="MissingPart" ShowErrorString="MissingPart" APIString="X" IsIgnored="false" ErrorCode="0"/>
 		</ExceptionDefectConfigs>
 	</DefectsDefinitionConfig>
 

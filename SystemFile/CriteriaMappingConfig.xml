@@ -14,6 +14,10 @@ Note >
 <CriteriaMappingConfig>
 	<Criteria ClassID="1" ClassName="Nicosuma">
 		<DeviceAssignmentList DefaultCriteriaName="Grading-Criteria-Nicosuma-FDtuning.xml" DefaultDirtToScratch="true">
+		<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Gold" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma-FDtuning - NDV white.xml"/>
+		<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Silver" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma-FDtuning - NDV white.xml"/>
+		<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="Red" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma-FDtuning - NDV black.xml"/>
+		<DeviceAssignment Enable="true" Company="Apple" Model="iPhone8" Color="SpaceGray" DirtToScratch="false" CriteriaName="Grading-Criteria-Nicosuma-FDtuning - NDV black.xml"/>
 		</DeviceAssignmentList>
 	</Criteria>	
 </CriteriaMappingConfig>
